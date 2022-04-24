@@ -13,3 +13,5 @@ CREATE TABLE `HospitalManagement`.`BILL_DETAILS` (
   UNIQUE INDEX `Bill_no_UNIQUE` (`Bill_no` ASC) VISIBLE);
   
   
+  
+  

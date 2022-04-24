@@ -1,4 +1,4 @@
-/*  
+ 
 CREATE TABLE `HospitalManagement`.`ROOM` (
   `Room_no` INT NOT NULL,
   `Ward` VARCHAR(45) NOT NULL,
@@ -21,7 +21,7 @@ VALUES
 ('1011','G-Ward','AC-Double-Sharing','2005','1001')
 ;
 
-*/ 
+
 
 SELECT * FROM ROOM;
 
