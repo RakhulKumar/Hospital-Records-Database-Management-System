@@ -22,8 +22,5 @@ VALUES
 ;
 
 
-
 SELECT * FROM ROOM;
-
-
 
