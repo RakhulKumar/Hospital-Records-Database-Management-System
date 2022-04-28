@@ -1,4 +1,4 @@
-CREATE TABLE `HospitalManagement`.`PHARMACY` (
+CREATE TABLE IF NOT EXISTS `PHARMACY` (
   `Bill_number` INT NOT NULL,
   `Medicine` VARCHAR(45) NOT NULL,
   `Stock` INT NOT NULL,

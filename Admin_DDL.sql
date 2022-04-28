@@ -1,4 +1,4 @@
-CREATE TABLE `HospitalManagement`.`ADMIN` (
+CREATE TABLE IF NOT EXISTS `ADMIN` (
   `Admin_id` VARCHAR(10) NOT NULL,
   `Name` VARCHAR(45) NOT NULL,
   `Age` INT NOT NULL,

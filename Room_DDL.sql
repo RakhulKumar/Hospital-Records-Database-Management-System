@@ -1,5 +1,5 @@
  
-CREATE TABLE `HospitalManagement`.`ROOM` (
+CREATE TABLE IF NOT EXISTS `ROOM` (
   `Room_no` INT NOT NULL,
   `Ward` VARCHAR(45) NOT NULL,
   `Type` VARCHAR(45) NOT NULL,
