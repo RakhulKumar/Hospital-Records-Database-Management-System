@@ -1,4 +1,4 @@
-CREATE TABLE `DOCTOR` (
+CREATE TABLE if not exists `DOCTOR` (
   `Doc_id` int NOT NULL,
   `Name` varchar(45) NOT NULL,
   `Address` varchar(45) NOT NULL,
