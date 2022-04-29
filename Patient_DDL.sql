@@ -10,7 +10,6 @@ CREATE TABLE IF NOT EXISTS `PATIENT` (
   UNIQUE INDEX `Patient_id_UNIQUE` (`Patient_id` ASC) VISIBLE);
    
 
-/*
   insert into PATIENT (Patient_id, DOB, Gender, Address, Diagnosis, PhNumber, Patient_name) values
   (2001, '2001-10-21', 'Male', 'B3-11D Olympia Grande', 'Asthma', '9182736451','Pramodh'),
   (2002, '2001-09-19', 'Male', 'B3-11C Olympia Grande', 'Sore Throat', '927736451', 'Amudhapriyan'),
@@ -22,9 +21,5 @@ CREATE TABLE IF NOT EXISTS `PATIENT` (
   (2008, '1994-05-23', 'Female', '24 Highrise Block', 'Borderline Personality Disorder', '918235451', 'Susan')
   ;
   
-  
-  
-  
-
   
   select * from patient
