@@ -23,7 +23,9 @@ VALUES
 ('1002', 'Dr.A.Nandhini', '7 Bus Pass Street', 'Female', '967893546','1', 'Psychology', '1','nandhini@anniyan.com'),
 ('1003', 'Dr.R.Raghavan', '17 Kamal Nagar', 'Male', '962356235','15', 'Opthalmologist', '3','raghavan@ips.com'),
 ('1004', 'Dr.P.Kadhambari', '9 Pondi Nagar', 'Female', '936132842','4', 'ENT', '1','kadhambari@rojamail.com'),
-('1005', 'Dr.K.Jessie', '2 SkyCross Avenue', 'Female', '908012365','12', 'Cardiology', '2','jessie@sky.com');
+('1005', 'Dr.K.Jessie', '2 SkyCross Avenue', 'Female', '908012365','12', 'Cardiology', '2','jessie@sky.com'),
+('1006', 'Dr.M.Aravindhan', '24 Sri Nagar', 'Male', '904356365','7', 'Pulmonology', '3','araindhandoc@yahoo.com'),
+('1007', 'Dr.A.Ravichandar', '5 Lakeview Avenue', 'Male', '967832365','8', 'Orthopedic', '2','ravi242@gmail.com'),
 
 
 SELECT * FROM DOCTOR;
