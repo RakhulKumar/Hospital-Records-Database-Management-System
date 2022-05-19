@@ -8,6 +8,8 @@ CREATE TABLE if not exists `DOCTOR` (
   `Specialization` varchar(45) NOT NULL,
   `Shift` INT NOT NULL,
   `Email_id` varchar(50) NOT NULL,
+  `Salary` INT NOT NULL,
+  
   PRIMARY KEY (`Doc_id`),
   UNIQUE KEY `Doctor_id_UNIQUE` (`Doc_id`),
   UNIQUE KEY `PhNumber_UNIQUE` (`PhNumber`),
