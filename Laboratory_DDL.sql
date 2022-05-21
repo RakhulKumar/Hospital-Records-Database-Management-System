@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS `LABORATORY` (
   UNIQUE INDEX `Test_id_UNIQUE` (`Test_id` ASC) VISIBLE,
   PRIMARY KEY (`Test_id`));
   
-  insert into laboratory (Test_id, Test_name, Lab_number, Patient_id, Patient_name, Doc_id, Doc_name, Date, test_fee) values
+  insert into laboratory (Test_id, Test_name, Lab_number, Patient_id, Patient_name, Doc_id, Doc_name, Date, Test_fee) values
   (3001, 'blood_test', 501, 2001, 'Pramodh', 1006, 'Dr.M.Aravindhan', '2022-04-15', 300),
   (3002, 'x-ray', 502, 2002, 'Jashwanth', 1007, 'Dr.A.Ravichandar', '2022-04-17', 650),
   (3003, 'brain_scan', 505, 2006, 'Sakthi', 1002, 'Dr.A.Nandhini', '2022-04-16', 750),
