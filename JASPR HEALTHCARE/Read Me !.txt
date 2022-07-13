@@ -1,0 +1,4 @@
+In this updated file you have to add time for each doctor from admin panel.
+When you adding new doctor in admin in that tab itself add time button is 
+available so in that page you can choose the doctor and manually enter time. 
+example time:10.00-12.00 and 13.00-14.00 you can enter time in 24 hours format.
