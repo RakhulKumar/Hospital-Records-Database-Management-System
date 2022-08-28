@@ -4,12 +4,30 @@ In the traditional management system, we always see that to find out the patient
 
 
 There are 9 entities (tables) in this database. They are:\
-		a. Blog\
-		b. Blog details\
-		c. Doctors\
-		d. Login\
-		e. Patient appointments\
-		f. Pharmacy\
-		g. Prescription\
-		h. Services\
-		i. Timings
+		a. `Blog`\
+		b. `Blog details`\
+		c. `Doctors`\
+		d. `Login`\
+		e. `Patient Appointments`\
+		f. `Pharmacy`\
+		g. `Prescription`\
+		h. `Services`\
+		i. `Timings`
+	
+	
+## Home Page
+![image](https://user-images.githubusercontent.com/64692447/187060915-4d3550b2-d4f5-4520-bc8a-8f56589ae0eb.png)
+
+## Registration Page
+
+![image](https://user-images.githubusercontent.com/64692447/187061060-e34db2dc-a194-4fa4-bf77-fa78a74ff454.png)
+
+## Login Page
+
+<img width="849" alt="image" src="https://user-images.githubusercontent.com/64692447/187061069-ffdcef00-6e7d-4d8d-b88b-45235f3494b3.png">
+
+## Database
+
+![image](https://user-images.githubusercontent.com/64692447/187061097-f41cbb75-f2d5-4358-8bb1-0b0c8e37f1ff.png)
+
+
