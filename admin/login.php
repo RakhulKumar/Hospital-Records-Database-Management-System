@@ -103,7 +103,7 @@
 
         </div>
         <div class="forget-password"><h4>Forgot your password ?</h4>
-            <p> no worries, click <a href="forgotpassword.php" id="forget-password"> here </a> to reset your password. </p>
+            <p> no worries, click <a href="forgotpassword.php" style="color: red" id="forget-password"> here </a> to reset your password. </p>
         </div>
     </form>
 

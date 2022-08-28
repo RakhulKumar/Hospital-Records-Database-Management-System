@@ -106,14 +106,16 @@
 
                                                         <div class="col-md-6">
                                                             <label for="form_control_1">DOB</label>
-                                                            <input type="text" class="form-control"
+                                                            <input type="text" value="<?php
+                                                    echo ucwords($row['dob']); ?>" class="form-control"
                                                                    placeholder="Patient DOB" value=""
                                                                    name="birth" required>
                                                         </div>
 
                                                         <div class="col-md-6">
                                                             <label for="form_control_1">Age</label>
-                                                            <input type="number" class="form-control"
+                                                            <input type="number" value="<?php
+                                                    echo ucwords($row['age']); ?>" class="form-control"
                                                                    placeholder="Patient Age"
                                                                    value=" "
                                                                    name="age" required>
