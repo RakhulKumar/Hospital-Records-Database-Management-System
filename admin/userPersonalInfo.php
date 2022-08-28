@@ -89,7 +89,7 @@ $username=$_GET['value'];
                               <div class="col-sm-12">
                                 <div class="form-group mb-20">
                                   <input data-height="45px" id="form_name" name="form_name" class="form-control bdrs-0" type="text"
-                                         required="" placeholder="Full Name" value="<?php echo $row['name']; ?>" aria-required="true">
+                                         required="" placeholder="Full Name" style="color: black"; value="<?php echo $row['name']; ?>" aria-required="true" required>
                                 </div>
                               </div>                  
                             </div>
@@ -97,13 +97,27 @@ $username=$_GET['value'];
                                   <div class="col-sm-6">
                                       <div class="form-group mb-20">
                                           <input data-height="45px" id="form_phone" name="form_phone" class="form-control bdrs-0 required"
-                                                 type="text" value="<?php echo $row['mobile']; ?>" placeholder="Enter Phone" aria-required="true">
+                                                 type="text" style="color: black"; value="<?php echo $row['mobile']; ?>" placeholder="Enter Phone" aria-required="true">
                                       </div>
                                   </div>
                                   <div class="col-sm-6">
                                       <div class="form-group time mb-20">
                                           <input data-height="45px" name="form_address" class="form-control bdrs-0 required "
-                                                 type="text" value="<?php echo $row['city']; ?>" placeholder="Address" aria-required="true">
+                                                 type="text" style="color: black"; value="<?php echo $row['city']; ?>" placeholder="Address" aria-required="true" required>
+                                      </div>
+                                  </div>
+                              </div>
+                               <div class="row">
+                                  <div class="col-sm-6">
+                                      <div class="form-group mb-20">
+                                          <input data-height="45px" id="dob" name="dob" class="form-control bdrs-0 required"
+                                                 type="date" style="color: black"; placeholder="Enter DOB" aria-required="true" required>
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-6">
+                                      <div class="form-group time mb-20">
+                                          <input data-height="45px" name="age" class="form-control bdrs-0 required "
+                                                 type="text" style="color: black";  placeholder="Age" aria-required="true" required>
                                       </div>
                                   </div>
                               </div>
@@ -111,13 +125,13 @@ $username=$_GET['value'];
                               <div class="col-sm-6">
                                 <div class="form-group mb-20">
                                   <input data-height="45px" id="form_email" name="form_email" class="form-control bdrs-0 required email"
-                                         type="email" value="<?php echo $row['username']; ?>" placeholder="Enter Email" aria-required="true">
+                                         type="email" style="color: black"; value="<?php echo $row['username']; ?>" placeholder="Enter Email" aria-required="true" required>
                                 </div>
                               </div>
                               <div class="col-sm-6">
                                 <div class="form-group mb-20">
                                   <input data-height="45px" id="form_password" name="form_password" class="form-control bdrs-0 required"
-                                         type="hidden" placeholder="Enter Password" aria-required="true">
+                                         type="hidden" style="color: black"; placeholder="Enter Password" aria-required="true" required>
                                 </div>
                               </div>
                                   
@@ -126,7 +140,7 @@ $username=$_GET['value'];
                               <div class="col-sm-6">
                                 <div class="form-group date mb-20">
                                   <input data-height="45px" id="date" name="form_appontment_date" class="form-control bdrs-0 required datepicker"
-                                         type="date" placeholder="MM/DD/YY" aria-required="true">
+                                         type="date" style="color: black"; placeholder="MM/DD/YY" aria-required="true" required>
                                 </div>
                               </div>
 
@@ -134,7 +148,7 @@ $username=$_GET['value'];
                                     <div class="form-group time mb-20">
                                         <select data-height="45px"
                                                 class="table-group-action-input form-control input-medium"
-                                                id="doctor_name" onchange="getTimes(this.value);" name="doctor_name">
+                                                id="doctor_name" style="color: black"; onchange="getTimes(this.value);" name="doctor_name" required>
                                             <option value="">--  Select Doctor Name  --</option>
                                             <?php
 //                                            include 'admin/admin_php/doctor.php';
@@ -169,7 +183,7 @@ $username=$_GET['value'];
                                   <div class="col-sm-6">
                                       <div class="form-group date mb-20">
                                           <input data-height="45px" name="form_appontment_for" class="form-control bdrs-0 required "
-                                                 type="text" placeholder="Appointment For" aria-required="true">
+                                                 type="text" style="color: black"; placeholder="Appointment For" aria-required="true" required>
                                       </div>
                                   </div>
 <!--                                  <div class="col-sm-6">-->
@@ -193,13 +207,14 @@ $username=$_GET['value'];
 <!--                                  </div>-->
                                   <div class="col-sm-6">
                                       <div class="form-group time mb-20">
-                                          <select data-height="45px"
+                                          <select style="color: black"; data-height="45px"
                                                   class="table-group-action-input form-control input-medium"
-                                                  id="form_appontment_time" type="text" name="timss">
+                                                  id="form_appontment_time" type="text" name="timss" required>
                                               <option value="">--  Select Time  --</option>
-                                               <option value="10.00">10.00</option>-->
-                                              <option value="11.00">11.00</option>
-                                              <option value="3.00">3.00</option>
+                                               <option value="10.00">10.00-AM</option>-->
+                                              <option value="11.00">11.00-AM</option>
+                                              <option value="3.00">3.00-PM</option>
+                                              <option value="3.00">5.00-PM</option>
 <!--                                              --><?php
 //                                              include 'admin/admin_php/doctor.php';
 //                                              if (mysqli_num_rows($res) > 0) {
@@ -228,9 +243,9 @@ $username=$_GET['value'];
                               </div>
                                                      <div class="col-sm-6">
                                     <div class="form-group time mb-20">
-                                        <select data-height="45px"
+                                        <select style="color: black"; data-height="45px"
                                                 class="table-group-action-input form-control input-medium"
-                                                id="Services" onchange="getTimes(this.value);" name="type">
+                                                id="Services" onchange="getTimes(this.value);" name="type" required>
                                             <option value="">--  Select here  --</option>
                                             <option value="clinic">Doctor</option>-->
                                               <!-- <option value="scan">Scan Center</option> -->
@@ -245,11 +260,11 @@ $username=$_GET['value'];
                             </div>
                             <div class="form-group mb-20">
                               <textarea id="form_message" name="form_message" class="form-control bdrs-0 required" data-height="120px" 
-                                        placeholder="Enter Message" rows="5" aria-required="true"></textarea>
+                                        placeholder="Enter Message" style="color: black"; rows="5" aria-required="true" required></textarea>
 <!--                                <input type="hidden" name="enable" value="enable">-->
                             </div>
                             <div class="form-group mb-0 mt-20">
-                              <input id="doctor_id" name="doctor_id"  type="hidden" value="<?php
+                              <input  id="doctor_id" name="doctor_id"  type="hidden" value="<?php
                               while($row = mysqli_fetch_assoc($result)) {
                                   echo $row["id"];
                               }

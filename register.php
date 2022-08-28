@@ -99,8 +99,6 @@
   font-weight: 900;
   font-display: swap;
   src: url(https://colorlib.com/fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfBBc9.ttf) format('truetype');
-}h2{
-  color:red;
 }
 </style>
 
@@ -112,26 +110,32 @@
 <script nonce="d4825db5-3fde-41ff-9c6d-24d4ac489d6e">(function(w,d){!function(a,e,t,r){a.zarazData=a.zarazData||{},a.zarazData.executed=[],a.zaraz={deferred:[]},a.zaraz.q=[],a.zaraz._f=function(e){return function(){var t=Array.prototype.slice.call(arguments);a.zaraz.q.push({m:e,a:t})}};for(const e of["track","set","ecommerce","debug"])a.zaraz[e]=a.zaraz._f(e);a.addEventListener("DOMContentLoaded",(()=>{var t=e.getElementsByTagName(r)[0],z=e.createElement(r),n=e.getElementsByTagName("title")[0];for(n&&(a.zarazData.t=e.getElementsByTagName("title")[0].text),a.zarazData.x=Math.random(),a.zarazData.w=a.screen.width,a.zarazData.h=a.screen.height,a.zarazData.j=a.innerHeight,a.zarazData.e=a.innerWidth,a.zarazData.l=a.location.href,a.zarazData.r=e.referrer,a.zarazData.k=a.screen.colorDepth,a.zarazData.n=e.characterSet,a.zarazData.o=(new Date).getTimezoneOffset(),a.zarazData.q=[];a.zaraz.q.length;){const e=a.zaraz.q.shift();a.zarazData.q.push(e)}z.defer=!0;for(const e of[localStorage,sessionStorage])Object.keys(e).filter((a=>a.startsWith("_zaraz_"))).forEach((t=>a.zarazData["z_"+t.slice(7)]=JSON.parse(e.getItem(t))));z.referrerPolicy="origin",z.src="../../../cdn-cgi/zaraz/sd0d9.js?z="+btoa(encodeURIComponent(JSON.stringify(a.zarazData))),t.parentNode.insertBefore(z,t)}))}(w,d,0,"script");})(window,document);</script></head>
 <body>
 <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
+    <h2 style="    margin-left: 500px;
+    font-family: auto;
+    font-style: 32px;
+    font-size: 42px;
+    color: white">JASPR Healthcare</h2>
 <div class="wrapper wrapper--w680">
 <div class="card card-1">
 <div class="card-heading"></div>
 <div class="card-body">
-<h2  class="title">Registration Info</h2>
+<h2 class="title" style="    margin-top: -181px;
+">Registration Info</h2>
 <form method="POST" action="">
 <div class="input-group">
-<input class="input--style-1" type="text" placeholder="Enter Name" name="name">
+<input class="input--style-1" type="text" placeholder="Enter Name" name="name" required>
 </div>
 <div class="row row-space">
 <div class="col-2">
 <div class="input-group">
-<input class="input--style-1" type="email" placeholder="Enter Email" name="email">
+<input class="input--style-1" type="email" placeholder="Enter Email" name="email" required>
 <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
 </div>
 </div>
 <div class="col-2">
 <div class="input-group">
 <div class="rs-select2 js-select-simple select--no-search">
-<select name="gender">
+<select name="gender" required>
 <option disabled="disabled" selected="selected">GENDER</option>
 <option>Male</option>
 <option>Female</option>
@@ -145,21 +149,21 @@
 <div class="row row-space">
 <div class="col-2">
 <div class="input-group">
-<input class="input--style-1" type="password" placeholder="Password" name="password">
+<input class="input--style-1" type="password" placeholder="Password" name="password" required>
 </div>
 </div>
 </div>
 <div class="row row-space">
 <div class="col-2">
 <div class="input-group">
-<input class="input--style-1" type="text" placeholder="City" name="res_code">
+<input class="input--style-1" type="text" placeholder="City" name="res_code" required>
 </div>
 </div>
 </div>
 <div class="row row-space">
 <div class="col-2">
 <div class="input-group">
-<input class="input--style-1" type="text" placeholder="Mobile Number" name="mobile">
+<input class="input--style-1" type="text" placeholder="Mobile Number" name="mobile" required>
 </div>
 </div>
 </div>

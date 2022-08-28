@@ -85,12 +85,7 @@
 
                 </ul>
             </li>
-            <li class="nav-item  ">
-                <a href="patients.php" class="nav-link ">
-                    <i class="icon-paper-plane"></i>
-                    <span class="title">Patient Appointments</span>
-                </a>
-            </li>
+           <!--      -->
                 <li class="nav-item  ">
                     <a href="prescription.php" class="nav-link ">
                         <i class="icon-paper-plane"></i>
@@ -229,7 +224,9 @@
 
 
   <!--   User Role     -->
-            <?php if(isset($_SESSION['role']))
+            <?php
+            // $usernames=$_GET['value'];   
+             if(isset($_SESSION['role']))
             {
             if($_SESSION['role'] == 'user')
             {
@@ -254,6 +251,12 @@
                     <span class="title">Reset Password</span>
                 </a>
             </li>
+             <!--     <li class="nav-item  ">
+                <a href="<?php echo 'precription_view.php?value='.$usernames; ?>" class="nav-link ">
+                    <i class="icon-key"></i>
+                    <span class="title">View Prescription</span>
+                </a>
+            </li> -->
             <li class="nav-item  ">
                 <a href="<?php echo 'admin_php/logout.php' ;?>" class="nav-link ">
                     <i class="fa fa-sign-out"></i>

@@ -127,24 +127,26 @@
 
 
     <span  id="findhotels">
-      Find hospitals in:
+      <!-- Find hospitals in: -->
     </span>
 
     <div id="locationField" >
-      <input id="autocomplete" placeholder="Enter a city" type="text" />
+      <!-- <input id="autocomplete" placeholder="Enter a city" type="text" /> -->
     </div>
 
     <div id="controls">
-      <select id="country">
+ <!--      <select id="country">
         <option value="all">All</option>
         <option value="in">India</option>
         <option value="in">Africa</option>
         <option value="in">Andhra Pradesh</option>
         <option value="us" selected>U.S.A.</option>
-     </select>
+     </select> -->
     </div>
 
-    <div id="map"></div>
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d147991.71488042647!2d80.05352894436575!3d12.912335956659229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d0f17206573%3A0xdb5e998d3e583921!2sApollo%20Speciality%20Hospital!5e0!3m2!1sen!2sin!4v1656240301275!5m2!1sen!2sin" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
     <div id="listing">
       <table id="resultsTable">
